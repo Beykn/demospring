@@ -30,12 +30,13 @@ public class UsersServiceImpl implements UsersService {
 
         if(result.isPresent()){
             theUser = result.get();
+            return theUser;
         }else{
             //we did not find the user
             throw new RuntimeException("Did not find user id - " + theId);
         }
 
-        return null;
+       
     }
 
     @Override
