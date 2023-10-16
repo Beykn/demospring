@@ -1,0 +1,15 @@
+create table users (
+	id  serial,
+	name varchar(20),
+	surname varchar(20)
+)
+	
+----------------------------------
+insert into users(name,surname) values
+	('Beyhan','Kandemir'),
+	('Reyhan', 'Kandemir'),
+	('Nazlı', 'Albayrak'),
+	('Yaprak', 'Deniz'),
+	('Yağmur','Sarpkaya'),
+	('Duygu','Dumlu');
+----------------------------------
